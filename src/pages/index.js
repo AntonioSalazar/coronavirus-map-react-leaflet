@@ -127,10 +127,10 @@ const IndexPage = () => {
       <Container type="content" className="text-center home-start">
       <h2>Project made for fun and learning purposes</h2>
       <div className='home-start__logo-container'>
-        <img src='/tech-logos/gatsby-logo.png'></img>
-        <img src='/tech-logos/react.png' ></img>
-        <img src='https://leafletjs.com/docs/images/logo.png'></img>
-        <img src='https://www.amcharts.com/wp-content/uploads/2018/09/GeoJSON.png' ></img>
+        <img src='/tech-logos/gatsby-logo.png' alt='gatsby'></img>
+        <img src='/tech-logos/react.png' alt='react'></img>
+        <img src='https://leafletjs.com/docs/images/logo.png' alt='leaflet'></img>
+        <img src='https://www.amcharts.com/wp-content/uploads/2018/09/GeoJSON.png' alt='geoJson'></img>
       </div>
 
       <p>Used Gatsby-startet-leaflet from <a href="https://github.com/colbyfayock/gatsby-starter-leaflet">Gatsby Starter Leaflet boilerplate</a></p>
