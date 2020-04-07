@@ -7,6 +7,8 @@ import Layout from 'components/Layout';
 import Container from 'components/Container';
 import Map from 'components/Map';
 
+
+
 const LOCATION = {
   lat: 0,
   lng: 0
@@ -123,12 +125,15 @@ const IndexPage = () => {
       <Map {...mapSettings} />
 
       <Container type="content" className="text-center home-start">
-        <h2>Still Getting Started?</h2>
-        <p>Run the following in your terminal!</p>
-        <pre>
-          <code>gatsby new [directory] https://github.com/colbyfayock/gatsby-starter-leaflet</code>
-        </pre>
-        <p className="note">Note: Gatsby CLI required globally for the above command</p>
+      <h2>Project made for fun and learning purposes</h2>
+      <div className='home-start__logo-container'>
+        <img src='/tech-logos/gatsby-logo.png'></img>
+        <img src='/tech-logos/react.png' ></img>
+        <img src='https://leafletjs.com/docs/images/logo.png'></img>
+        <img src='https://www.amcharts.com/wp-content/uploads/2018/09/GeoJSON.png' ></img>
+      </div>
+
+      <p>Used Gatsby-startet-leaflet from <a href="https://github.com/colbyfayock/gatsby-starter-leaflet">Gatsby Starter Leaflet boilerplate</a></p>
       </Container>
     </Layout>
   );

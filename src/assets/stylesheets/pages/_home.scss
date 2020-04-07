@@ -2,7 +2,7 @@
 
   .map,
   .map-base {
-    height: 50vh;
+    height: 70vh;
   }
 
   main {
@@ -45,7 +45,7 @@
 
     overflow: hidden;
     width: 10em;
-    height: 10em;
+    height: 5em;
     background-color: $gatsby-purple;
     border-radius: 100%;
     border: solid 6px $gatsby-purple;
@@ -62,19 +62,28 @@
 
 .home-start {
 
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 
   h2 {
     margin-top: 0;
   }
 
   p {
-    margin-bottom: 1.2em;
+    margin-bottom: .2em;
   }
 
   pre {
     margin-bottom: 1.5em;
+  }
+
+  img{
+    height: 2rem;
+  }
+
+  &__logo-container {
+    display: flex;
+    justify-content: space-between;
   }
 
 }

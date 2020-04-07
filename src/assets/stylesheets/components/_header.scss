@@ -2,7 +2,11 @@ header {
 
   width: 100%;
   color: $white;
-  background-color: $gatsby-purple;
+  background-color: #000000;
+  
+  // .custom__header {
+  //   margin-left: 20rem;
+  // }
 
   .container {
     display: flex;
@@ -31,7 +35,7 @@ header {
   p {
     font-size: 1.2em;
     font-weight: bold;
-    margin: 0;
+    margin: auto;
   }
 
 }
