@@ -1,3 +1,15 @@
+# Novel Covid map
+
+Map that shows some red markers, each marker shows the number of confirmed covid 19 cases, if you hover over the marker additional info will be displayed, such as number of deaths 💀, number of people who have recovered 💪 and the moment when the info was last updated.
+
+Technologies used: Gatsby, Leaflet, GeoJson and React.
+
+How the project looks like:
+
+![](public/tech-logos/home.png)
+
+
+
 # 🍃 Gatsby Leaflet Starter
 
 Jumpstart your next Gatsby mapping project with Leaflet!
